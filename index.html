@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 
     <title>Caleb Lawson</title>
@@ -10,11 +10,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body>
+<body class="grey lighten-4">
     <nav>
-        <div class="nav-wrapper cyan accent-4">
+        <div class="nav-wrapper cyan darken-1">
             <a href="#!" class="brand-logo center">Caleb Lawson</a>
-            <a href="#" data-activates="mobile-demo" class="button-c"><i class="material-icons" style="margin-left: .5rem;">menu</i></a>
+            <a href="#" data-activates="mobile-demo" class="button-c"><i class="fa fa-bars fa-2x" aria-hidden="true" style="padding-left:1rem"></i></a>
             <ul class="side-nav" id="mobile-demo">
                 <li><a href="#bio">Bio</a></li>
                 <li><a href="#skills">Skills</a></li>
@@ -29,46 +29,30 @@
 
     <div class="fixed-action-btn vertical click-to-toggle">
         <a class="btn-floating btn-large orange">
-            <i class="material-icons">info_outline</i>
+            <i class="fa fa-info" aria-hidden="true"></i>
         </a>
         <ul>
-            <li><a href="https://github.com/cglawson" class="btn-floating red lighten-1"><i class="material-icons">code</i></a></li>
-            <li><a href="https://www.linkedin.com/in/lawsoncaleb" class="btn-floating yellow darken-2"><i class="material-icons">face</i></a></li>
-            <li><a href="mailto:caleb@lawson.rocks" class="btn-floating green accent-3"><i class="material-icons">email</i></a></li>
+            <li><a href="https://github.com/cglawson" class="btn-floating red lighten-1"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/lawsoncaleb" class="btn-floating yellow darken-2"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            <li><a href="mailto:caleb@lawson.rocks" class="btn-floating green accent-3"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
         </ul>
     </div>
 
 
     <div class="container">
         <div class="section">
-            <div id="bio" class="row">
-                <div class="col hide-on-small-only m12 l8 offset-l2">
-                    <div class="card horizontal">
+            <div class="row">
+                <div class="col s12 m8 offset-m2 l6 offset-l3">
+                    <div class="card">
                         <div class="card-image">
                             <img src="img/avatar.jpg">
                         </div>
-                        <div class="card-stacked">
-                            <div class="card-content">
-                                <p>I am an Applications Engineer at Humana, providing support and adding new functionality for an app built on the Pega PRPC platform. I am interested in web development, database administration, and puppies.</p>
-                            </div>
-                            <div class="card-action">
-                                <a href="mailto:caleb@lawson.rocks">E-Mail Me <i class="material-icons right">email</i></a>
-                            </div>
+                        <div class="card-content">
+                            <p>I am an Applications Engineer at Humana, providing support and adding new functionality for an app built on the Pega PRPC platform. I am interested in web development, database administration, and puppies.</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 hide-on-med-only hide-on-large-only">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="img/avatar.jpg">
-                    </div>
-                    <div class="card-content">
-                        <p>I am an Applications Engineer at Humana, providing support and adding new functionality for an app built on the Pega PRPC platform. I am interested in web development, database administration, and puppies.</p>
-                    </div>
-                    <div class="card-action">
-                        <a href="mailto:caleb@lawson.rocks">Email Me <i class="material-icons right">email</i></a>
+                        <div class="card-action">
+                            <a href="mailto:caleb@lawson.rocks">E-Mail Me <i class="fa fa-envelope-o fa-lg right" aria-hidden="true"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,7 +63,7 @@
         </h1>
         <div class="row">
             <div class="col s12 m4 l4">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <span class="card-title">Development</span>
                         <ul>
@@ -107,7 +91,7 @@
             </div>
 
             <div class="col s12 m4 l4">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <span class="card-title">Soft</span>
                         <ul>
@@ -132,7 +116,7 @@
             </div>
 
             <div class="col s12 m4 l4">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <span class="card-title">Other</span>
                         <ul>
@@ -165,7 +149,7 @@
         </h1>
         <div class="row">
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-image">
                         <img src="img/pokemango.png">
                     </div>
@@ -177,7 +161,7 @@
             </div>
 
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-image">
                         <img src="img/redlightgreenlight.png">
                     </div>
@@ -194,7 +178,7 @@
         </h1>
         <div class="row">
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <h5>Applications Engineer</h5>
                         <span class="card-title">Humana</span>
@@ -205,7 +189,7 @@
             </div>
 
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <h5>Student Worker</h5>
                         <span class="card-title">Murray State University</span>
@@ -217,7 +201,7 @@
         </div>
         <div class="row">
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <h5>Student Worker</h5>
                         <span class="card-title">Murray State University</span>
@@ -229,7 +213,7 @@
             </div>
 
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <h5>Programming Instructor</h5>
                         <span class="card-title">iD Tech Programming Academy</span>
@@ -245,7 +229,7 @@
         </h1>
         <div class="row">
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <h5>BS, Computer Science</h5>
                         <span class="card-title">Murray State University</span>
@@ -256,7 +240,7 @@
             </div>
 
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <h5>CPR, AED, and First Aid</h5>
                         <span class="card-title">MEDIC First Aid</span>
@@ -271,7 +255,7 @@
         </h1>
         <div class="row">
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <h5>Outstanding Senior,<br>Computer Science</h5>
                         <span class="card-title">Murray State University</span>
@@ -281,7 +265,7 @@
                 </div>
             </div>
             <div class="col s12 m6 l6">
-                <div class="card cyan accent-4">
+                <div class="card cyan">
                     <div class="card-content white-text">
                         <h5>Eagle Scout Award</h5>
                         <span class="card-title">Boy Scouts of America</span>
