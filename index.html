@@ -10,23 +10,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
-<body id="top" class="grey lighten-4">
+<body id="home" class="grey lighten-4">
+<div class="navbar-fixed">
   <nav>
     <div class="nav-wrapper cyan darken-1">
       <a href="#!" class="brand-logo center">Caleb Lawson</a>
       <a href="#" data-activates="mobile-demo" class="button-c hide-on-small-only"><i class="fa fa-bars fa-2x" aria-hidden="true" style="margin-left:1rem"></i></a>
       <a href="#" data-activates="mobile-demo" class="button-c hide-on-med-and-up"><i class="fa fa-bars fa-2x" aria-hidden="true" style="margin-left:1rem;margin-top:1rem"></i></a>
-      <ul class="side-nav" id="mobile-demo">
-        <li><a href="#top">Bio</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#certifications">Certifications</a></li>
-        <li><a href="#awards">Awards</a></li>
-      </ul>
     </div>
   </nav>
+</div>
+
+<ul class="side-nav" id="mobile-demo">
+  <li><a href="#home" class="waves-effect waves-dark">Home</a></li>
+  <li><a href="#skills" class="waves-effect waves-dark">Skills</a></li>
+  <li><a href="#projects" class="waves-effect waves-dark">Projects</a></li>
+  <li><a href="#experience" class="waves-effect waves-dark">Experience</a></li>
+  <li><a href="#education" class="waves-effect waves-dark">Education</a></li>
+  <li><a href="#certifications" class="waves-effect waves-dark">Certifications</a></li>
+  <li><a href="#awards" class="waves-effect waves-dark">Awards</a></li>
+</ul>
+
+<ul id='ctd' class='dropdown-content'>
+  <li><a href="mailto:caleb@lawson.rocks" class='cyan-text text-darken-1'>E-Mail<i class="fa fa-envelope-o fa-lg right" aria-hidden="true"></i></a></li>
+  <li class="divider"></li>
+  <li><a href="https://github.com/cglawson" class='cyan-text text-darken-1'>GitHub<i class="fa fa-github fa-lg right" aria-hidden="true"></i></a></li>
+  <li class="divider"></li>
+  <li><a href="https://www.linkedin.com/in/lawsoncaleb" class='cyan-text text-darken-1'>LinkedIn<i class="fa fa-linkedin fa-lg right" aria-hidden="true"></i></a></li>
+</ul>
 
   <div class="section">
     <div class="row">
@@ -39,16 +50,9 @@
             <div class="card-content valign-wrapper">
               <p>I am an Applications Engineer at Humana, providing support and adding new functionality for an app built on the Pega PRPC platform. I am interested in full-stack web development, big data, and puppies.</p>
             </div>
-            <div class="card-action dropdown-button black-text flow-text" href='#' data-activates='ctd'>
+            <div class="card-action dropdown-button black-text flow-text cyan lighten-1 white-text waves-effect waves-light" href='#' data-activates='ctd'>
               Contact Me
             </div>
-            <ul id='ctd' class='dropdown-content'>
-              <li><a href="mailto:caleb@lawson.rocks" class='cyan-text text-darken-1'>E-Mail<i class="fa fa-envelope-o fa-lg right" aria-hidden="true"></i></a></li>
-              <li class="divider"></li>
-              <li><a href="https://github.com/cglawson" class='cyan-text text-darken-1'>GitHub<i class="fa fa-github fa-lg right" aria-hidden="true"></i></a></li>
-              <li class="divider"></li>
-              <li><a href="https://www.linkedin.com/in/lawsoncaleb" class='cyan-text text-darken-1'>LinkedIn<i class="fa fa-linkedin fa-lg right" aria-hidden="true"></i></a></li>
-            </ul>
           </div>
         </div>
       </div>
@@ -57,19 +61,13 @@
           <div class="card-image">
             <img src="img/avatar.jpg">
           </div>
-          <div class="card-content valign-wrapper">
+          <div class="card-content">
             <p>I am an Applications Engineer at Humana, providing support and adding new functionality for an app built on the Pega PRPC platform. I am interested in full-stack web development, data analytics, and puppies.</p>
           </div>
-          <div class="card-action dropdown-button flow-text" href='#' data-activates='ctdm'>
-            Contact Me!
+          <div class="card-action dropdown-button flow-text waves-effect waves-light" href='#' data-activates='ctdm'>
+            Contact Me
           </div>
-          <ul id='ctd' class='dropdown-content'>
-            <li><a href="mailto:caleb@lawson.rocks" class='cyan-text text-darken-1'>E-Mail<i class="fa fa-envelope-o fa-lg right" aria-hidden="true"></i></a></li>
-            <li class="divider"></li>
-            <li><a href="https://github.com/cglawson" class='cyan-text text-darken-1'>GitHub<i class="fa fa-github fa-lg right" aria-hidden="true"></i></a></li>
-            <li class="divider"></li>
-            <li><a href="https://www.linkedin.com/in/lawsoncaleb" class='cyan-text text-darken-1'>LinkedIn<i class="fa fa-linkedin fa-lg right" aria-hidden="true"></i></a></li>
-          </ul>
+
         </div>
       </div>
     </div>
@@ -206,7 +204,8 @@
           <div class="card-content white-text">
             <h5>Applications Engineer</h5>
             <span class="card-title">Humana</span>
-              <p>Reduced stuck work cases in the production environment by 90% over six months. Analyzed incident tickets and produced bug-fixes along with short-term cleanup solutions. Advise team members, track progress, and serve as a liaison to business partners while leading twice-weekly stand-up meetings. Facilitate the transfer of production support activities from the development team to dedicated support personnel through mentoring.</p>
+            <p>Reduced stuck work cases in the production environment by 90% over six months. Analyzed incident tickets and produced bug-fixes along with short-term cleanup solutions. Advise team members, track progress, and serve as a liaison to business
+              partners while leading twice-weekly stand-up meetings. Facilitate the transfer of production support activities from the development team to dedicated support personnel through mentoring.</p>
             <p class="right-align"><br>Jul 2015 - Present</p>
           </div>
         </div>
